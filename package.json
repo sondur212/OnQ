@@ -3,7 +3,15 @@
   "version": "0.1.0",
   "description": "React tools project",
   "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified \" && exit 1"
+  },
   "author": "Raghavendra Sondur",
-  "license": "MIT",
-  "repository": "https://sondur212:!Saumeel12@github.com/sondur212/OnQ.git"
+  "license": "ISC",
+  "repository": "https://sondur212:!Saumeel12@github.com/sondur212/OnQ.git",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
