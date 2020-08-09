@@ -9,7 +9,3 @@ html {
 *::before {
   box-sizing: inherit;
 }
-
-.warning {
-  color: tomato;
-}
